@@ -1,0 +1,29 @@
+What is HTML?
+=============
+
+    🔹 HTML (HyperText Markup Language) is the standard language used to create web pages.
+    🔹 It tells the browser:
+
+         " What content to show
+           How the content is structured "
+           
+    🔹 HTML is not a programming language
+    🔹 It is a markup language
+    🔹 It uses tags like <h1>, <p>, <a>
+
+
+HTML tags
+==========
+    🔹 An HTML tag is a keyword enclosed in angle brackets.
+    🔹 It uses tags like <h1>, <p>, <a>
+
+
+
+HTML Elements 
+=============
+    🔹 An HTML element consists of:
+    🔹 Opening Tag + Content + Closing Tag
+
+            <p>Hello World</p>
+
+
