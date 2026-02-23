@@ -73,7 +73,15 @@ HTML Element Categories
 
 
 
-
-
 Interview point of questions
----------------------------
+-----------------------------
+
+ 🔹 Non-Semmantic Elements 
+
+        ✅ Example
+
+                <div>  - Divide
+                <span> - span
+                <b>    - bold
+                <i>    - italic
+                <u>    - underline
