@@ -1,0 +1,44 @@
+
+HTML Elements and Types
+=======================
+
+
+
+
+
+
+Basic Structure Elements
+
+    🔹 <html>	Root of HTML document
+    🔹 <head>	Metadata (title, links, scripts)
+    🔹 <title>	Page title (shown in browser tab)
+    🔹 <body>	Visible content
+
+Text Elements
+
+    🔹 <h1> to <h6>	Headings
+    🔹 <p>	Paragraph
+    🔹 <br>	Line break
+    🔹 <hr>	Horizontal line
+    🔹 <strong>	Bold (important text)
+    🔹 <em>	Italic (emphasis)
+    🔹 <span>	Inline container
+
+Links & Media
+
+    🔹 <a>	Hyperlink
+    🔹 <img>	Image
+    🔹 <audio>	Audio
+    🔹 <video>	Video
+
+Lists
+    🔹<ul>	Unordered list
+    🔹<ol>	Ordered list
+    🔹<li>	List item
+
+Table Elements
+
+    🔹 <table>	Table
+    🔹 <tr>	Table row
+    🔹 <th>	Table header
+    🔹 <td>	Table data
