@@ -97,3 +97,24 @@ HTML Elements Categories List
     
     📌 Semantic Elements (HTML5)
     ----------------------------
+        Clearly describe their meaning.
+
+            🔹 <header>
+            🔹 <nav>
+            🔹 <section>
+            🔹 <article>
+            🔹 <aside>
+            🔹 <footer>
+            🔹 <main>
+            🔹 <figure>
+    
+    
+  📌 Non-Semmantic Elements 
+  --------------------------
+        ✅ Example
+
+                <div>  - Divide
+                <span> - span
+                <b>    - bold
+                <i>    - italic
+                <u>    - underline

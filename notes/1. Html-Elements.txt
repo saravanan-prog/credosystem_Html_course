@@ -16,6 +16,10 @@ HTML tags
 ==========
     🔹 An HTML tag is a keyword enclosed in angle brackets.
     🔹 It uses tags like <h1>, <p>, <a>
+    🔹 It is two categories
+
+            Paired Tags    - With closing tags    (   <p>...</p>)
+            Void Elements  - without closing tags (<img/> ,<br/> )
 
 
 
@@ -25,5 +29,15 @@ HTML Elements
     🔹 Opening Tag + Content + Closing Tag
 
             <p>Hello World</p>
+
+HTML Element Categories
+=======================
+
+     There are Four types of Categories
+
+        1️⃣  Block-Level Elements
+        2️⃣  Inline Elements
+        3️⃣  Semantic Elements
+        4️⃣  void Elements  (or) Empty (Self-Closing) Elements
 
 
