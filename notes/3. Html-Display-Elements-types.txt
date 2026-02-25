@@ -58,20 +58,21 @@ HTML Element Categories
             <footer>
             <main>
 
+
+
   4️⃣ void Elements 
   ------------------
 
     🔹 Do not have closing tags.
 
         ✅ Example
-                <br>
-                <hr>
-                <img>
-                <input>
-                <meta>
-                <link>
+                <br/>
+                <hr/>
+                <img/>
+                <input/>
+                <meta/>
+                <link/>
 
 
 
-Interview point of questions
------------------------------
+
