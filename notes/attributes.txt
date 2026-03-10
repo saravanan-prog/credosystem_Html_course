@@ -16,8 +16,8 @@ Here are the main types of HTML attributes:
                 class           –   CSS class name
                 style           –   Inline CSS
                 title           –   Extra information (tooltip)
-                hidden          –   Hides the element
                 tabindex        –   Tab order
+                hidden          -  hide the text
                 contenteditable –   Makes content editable
 
     Element-Specific Attributes
@@ -47,6 +47,7 @@ Here are the main types of HTML attributes:
                 readonly
                 required
                 autoplay
+                          
 
         
 
