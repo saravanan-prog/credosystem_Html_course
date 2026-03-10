@@ -1,0 +1,33 @@
+List
+=====
+
+     - undorder list (bullet,circle etc.,)
+     - order list (alpha,newmeric,roam letter)
+     - description list (essay)
+
+
+    UL
+    --
+       <ul>
+           <li>Apple </li>
+           <li>Orange </li>
+           <li>Grapes </li>
+       </ul>
+
+    ol
+    ---
+
+    <ol>
+           <li>Apple </li>
+           <li>Orange </li>
+           <li>Grapes </li>
+    </ol>
+
+
+    DL
+    --
+
+      <dl>              --> description list
+        <dt> </dt>  --> descript title
+        <dd> </dd>   --> description data
+      </dl>
