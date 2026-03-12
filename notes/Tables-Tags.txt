@@ -4,7 +4,7 @@ Table Tags in HTML
     <table> – Creates a table
     <tr>    – Table row
     <th>    – Table heading (header cell)
-    <td>    – Table data (cell)
+    <td>    – Table data (cell).
 
 Table Attributes
 ================
