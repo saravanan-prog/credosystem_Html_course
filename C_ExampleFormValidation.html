@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <title> Example Form </title>
+</head>
+
+<body>
+    <center>
+        <h3> Registration Form</h3>
+    </center>
+
+
+
+    <form>
+
+        <div class="row">
+            <label for="candidate-name">
+                <span>Candidate Name</span> 
+                <span style="color:red">*</span>
+            </label>
+
+            <input 
+                type="text" id="candidate-name" name="candidate-name" 
+                value=""
+                placeholder="ex:saravanan"
+                required
+                 />
+        </div> &nbsp;&nbsp;&nbsp;
+
+
+        <div class="row">
+            <label>
+                <span>Email</span>
+                <span style="color:red">*</span>
+            </label>
+            <input 
+                type="email" 
+                id="candidate-email" 
+                name="candidate-email"
+                placeholder="example@gmail.com"
+                required />
+        </div> &nbsp;&nbsp;&nbsp;
+
+        <div class="row">
+            <label>
+                <span>Mobile Number</span>
+                <span style="color:red">*</span>
+            </label>
+            <input 
+                type="tel"
+                id="candidate-number"
+                name="candidate-number"
+                pattern="[0-9]{6,10}"
+                minlength="6"
+                maxlength="10"
+                required
+            >
+        </div> &nbsp;&nbsp;&nbsp;
+
+        <div class="row">
+            <label>
+                <span>Date of Birth</span>
+                <span style="color:red">*</span>
+            </label>
+            <input 
+                type="date" 
+                id="candidate-dob" 
+                name="candidate-dob"
+                 required 
+                 />
+        </div> &nbsp;&nbsp;&nbsp;
+
+
+
+
+
+        <div class="row">
+            <label>
+                <span>Password</span>
+                <span style="color:red">*</span>
+            </label>
+            <input 
+                type="password" 
+                id="candidate-password" 
+                name="candidate-password" 
+                required 
+            />
+        </div> &nbsp;&nbsp;&nbsp;
+
+
+        <div class="row">
+            <label for="malegender">
+                <span>Gender</span>
+                <span style="color:red">*</span>
+            </label>
+            <input type="radio" id="gender" name="gender" value="male" required /> male
+
+            <input type="radio" id="gender"  name="gender" value="female" required /> female
+        </div> &nbsp;&nbsp;&nbsp;
+
+
+
+        <div class="row">
+            <label>
+                 <span>Languages</span>
+                <span style="color:red">*</span>
+            </label>
+            <input type="checkbox" id="lang" name="lang[]" value="tamil" required />Tamil
+
+            <input type="checkbox" id="lang" name="lang[]" value="english" required />English
+
+            <input type="checkbox" id="lang" name="lang[]" value="malayalam"  />Malaylam
+        </div> &nbsp;&nbsp;&nbsp;
+
+
+
+        <div class="row">
+            <label> Comments </label>
+            <textarea 
+                rows="10" 
+                cols="10"
+                placeholder="ex:commes..."
+            ></textarea>
+        </div> &nbsp;&nbsp;&nbsp;
+
+
+
+
+
+        <div class="row">
+            <label> Country </label>
+            <select name="country" required >
+                <option value="">choose your country</option>
+                <option value="IN">India</option>
+                <option value="CN">China</option>
+                <option value="PK">Pakisthan</option>
+            </select>
+        </div>
+
+
+
+
+
+
+
+        &nbsp;&nbsp;&nbsp;
+
+        <div class="row">
+            <input type="submit" value="Register" />
+            <input type="button" value="cancel" />
+            <button>Reset</button>
+        </div>
+
+    </form>
+
+
+
+
+    
+
+
+</body>
+    
+</html>
