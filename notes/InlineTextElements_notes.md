@@ -1,6 +1,5 @@
-
-     📌 Inline Text Elements
-    ------------------------- 
+# 📌 Inline Text Elements
+     
             <span>    - span
             <a>       - anchor
             <small>   - small text
