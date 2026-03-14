@@ -1,26 +1,46 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-   <title>Button Click Event</title>
-</head>
-<body onload="console.log('welcome to kfc world')">
 
+<head>
+    <title>Mouse  Event</title>
+</head>
+
+<body>
+    <h1> Mouse Events </h1>
+    <p>click</p>
     <button 
-        onclick="console.log('Hello Saravanan !!! ')"
-      > 
-            button 1 
+        id ="button1"
+        classs ="button1"
+        style="color:white;background-color: red;"
+        onclick = "console.log('Hello Saravanan !!! ')"
+    >
+        button 1
     </button>
 
 
     <button 
-        onclick="console.log('Hello Saravanan !!! ')"
-        ondblclick="console.log('what you want saravanan')"
-    
-    >button 2</button>
-   
+        id    = "button2"
+        class = "button2"
+        onclick    = "console.log('Hello Saravanan !!! ')" 
+        ondblclick = "console.log('what you want saravanan')"
+    >
+        button 2
+    </button>
 
-   
+    <p>Mouseover</p>
+
+    <p 
+        onmouseover="console.log('welcome to js world saravanan')"
+        onmouseout = "console.log('Bye bye Saravanan !!!')"
+    >
+        Hello Saravanan 
+    </p>
+
+
+
+
+
     </div>
 </body>
+
 </html>
