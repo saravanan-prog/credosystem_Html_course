@@ -1,5 +1,5 @@
 # Basic Syntax of HTML Events
-- Events are added as attributes inside HTML tags.
+ Events are added as attributes inside HTML tags.
 ```
 <button onclick="alert('Button clicked')">Click Me</button>
 ```
