@@ -55,7 +55,7 @@ Example code
 </html>
 
 Advanced Structure
-====================
+
     🔹 <thead> - Table header section.
     🔹 <tbody> - Table body section.
     🔹 <tfoot> - Table footer section.
@@ -91,7 +91,7 @@ Advanced Structure
 </table>
 
 ```
-
+output
 <table border="1">
     <thead>
         <tr>
