@@ -59,35 +59,36 @@
     
 ####    👉 📝` <track>` Tag
     
--            Adds text tracks like:
+-   Adds text tracks like:
         
                 🔹Subtitles
                 🔹Captions
                 🔹Descriptions
                 🔹Chapters
 
-            source code
+-  source code
 
-               ``` 
-               <video width="500" controls>
-                    <source src="movie.mp4" type="video/mp4">
-                    <track 
+    ``` 
+        <video width="500" controls>
+            <source src="movie.mp4" type="video/mp4">
+                <track 
                         src="subtitles.vtt" 
                         kind="subtitles" 
                         srclang="en" 
                         label="English"
                         default
-                    >
-                </video>
-                ```
+                >
+        </video>
+    ```
 
 
 🌐 Embedding External Media
 ============================
 -    👉 `<iframe>` - Used to embed external content (YouTube videos, maps, etc.).
-       ``` 
-       <iframe src="https://www.youtube.com/embed/videoID" width="400" height="300"></iframe>
-       ```
+
+``` 
+<iframe src="https://www.youtube.com/embed/videoID" width="400" height="300"></iframe>
+```
 
 
 
