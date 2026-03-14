@@ -1,21 +1,21 @@
-🎯Multimedia tags 
-==================
+# 🎯Multimedia tags 
 
-    👉 Multimedia tags are mainly:
 
+-    👉 Multimedia tags are mainly:
+```
         <audio>  - Used to embed sound files (music, podcasts, etc.).
         <video>  - Used to embed video files.
         <iframe> - Used to embed external content (YouTube videos, maps, etc.).  
         <img>    - Used to display images.
         <track>  - Adds subtitles or captions to videos.
         <source> - Defines multiple media sources for <audio> and <video>.
+```
 
+#### 🎵 Audio
 
-🎵 Audio
-=========
-    👉 Used to embed sound files (music, podcasts, etc.).
+-    👉 Used to embed sound files (music, podcasts, etc.).
 
-    Important Attributes:
+-    Important Attributes:
 
         🔹controls    – Shows play/pause buttons
         🔹autoplay    – Starts automatically
@@ -23,16 +23,18 @@
         🔹muted       – Starts muted
     
 
+    ```
     <audio controls>
         <source src="audio.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+    ```
 
-🎬 Video
-==========
-   👉 Used to embed video files.
+#### 🎬 Video
 
-        Important Attributes:
+-   👉 Used to embed video files.
+
+-        Important Attributes:
 
             🔹width / height
             🔹controls    
@@ -42,20 +44,22 @@
             🔹poster – Image shown before video plays
 
         
-    👉 🎬 <source>
-    =================
-        🔹 Defines media file sources (video/audio files).
-        🔹 source code
+####    👉 🎬 `<source>`
+    
+-    🔹 Defines media file sources (video/audio files).
+-    🔹 source code
 
-            <video width="400" controls>
+        ```  
+          <video width="400" controls>
                 <source src="movie.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+        ```
 
     
-    👉 📝 <track> Tag
-    ===================
-            Adds text tracks like:
+####    👉 📝` <track>` Tag
+    
+-            Adds text tracks like:
         
                 🔹Subtitles
                 🔹Captions
@@ -64,7 +68,8 @@
 
             source code
 
-                <video width="500" controls>
+               ``` 
+               <video width="500" controls>
                     <source src="movie.mp4" type="video/mp4">
                     <track 
                         src="subtitles.vtt" 
@@ -74,12 +79,15 @@
                         default
                     >
                 </video>
+                ```
 
 
 🌐 Embedding External Media
 ============================
-    👉 <iframe> - Used to embed external content (YouTube videos, maps, etc.).
-        <iframe src="https://www.youtube.com/embed/videoID" width="400" height="300"></iframe>
+-    👉 `<iframe>` - Used to embed external content (YouTube videos, maps, etc.).
+       ``` 
+       <iframe src="https://www.youtube.com/embed/videoID" width="400" height="300"></iframe>
+       ```
 
 
 
