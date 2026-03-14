@@ -1,13 +1,13 @@
-HTML List
-=========
-
-    TYPES:
-      - undorder list (bullet,circle etc.,)
-      - order list (alpha,newmeric,roam letter)
-      - description list (essay)
+# HTML List
 
 
-    👉 HTML provides three main tags to create lists:
+  ##  TYPES:
+  - undorder list (bullet,circle etc.,)
+  - order list (alpha,newmeric,roam letter)
+  - description list (essay)
+
+
+- 👉 HTML provides three main tags to create lists:
 
             <ul>  – Unordered List
             <ol>  – Ordered List
@@ -15,16 +15,16 @@ HTML List
 
 
 
-  1.  UNORDER LIST
-    -------------
-       👉 Used to create a bulleted list.
-          Attributes:
+####  1.  UNORDER LIST
+    
+-  👉 Used to create a bulleted list.
+- Attributes:
 
               <ul type="disc">   <!-- Default -->
               <ul type="circle">
               <ul type="square">
 
-          Example:
+-    Example:
 
             <ul>
                 <li>Apple </li>
@@ -32,10 +32,10 @@ HTML List
                 <li>Grapes </li>
             </ul>
 
-  2.  ORDER LIST
-    ----------
-    👉 Used to create a numbered list.
-    👉 Attributes
+####  2.  ORDER LIST
+    
+  -  👉 Used to create a numbered list.
+  -  👉 Attributes
     
           <ol type="1">   <!-- Numbers (default) -->
           <ol type="A">   <!-- Capital Letters -->
@@ -53,10 +53,10 @@ HTML List
         </ol>
 
 
-  3.  DESCRIPTION LIST
-    -------------------
+####  3.  DESCRIPTION LIST
+    
 
-      <dl>              --> description list
+      <dl>          --> description list
         <dt> </dt>  --> descript title
-        <dd> </dd>   --> description data
+        <dd> </dd>  --> description data
       </dl>
