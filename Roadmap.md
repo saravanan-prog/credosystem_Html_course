@@ -61,38 +61,26 @@ Build a registration form
 ###  🔵 Phase 4: Tables
 🔹 Topics
 
-`<table>`
-
-`<tr>`, `<td>`, `<th>`
-
-Table attributes
-
-Merging cells:
-
-colspan
-
-rowspan
-
-🎯 Practice
-
-Create student marks table
-
-Create timetable
+- `<table>`
+- `<tr>`, `<td>`, `<th>`
+- Table attributes
+- Merging cells:
+- colspan
+- rowspan
+- 🎯 Practice
+- Create student marks table
+- Create timetable
 
 ###  🟣 Phase 5: Semantic HTML (VERY IMPORTANT)
 🔹 Topics
 
 Semantic tags:
 
-`<header>`
-
-`<nav>`
-
-`<section>`
-
-`<article>`
-
-`<footer>`
+- `<header>`
+- `<nav>`
+- `<section>`
+- `<article>`
+- `<footer>`
 
 Importance of semantics
 
@@ -105,11 +93,9 @@ Build a structured webpage layout
 ###  🔴 Phase 6: Multimedia
 🔹 Topics
 
-Audio (`<audio>`)
-
-Video (`<video>`)
-
-Iframe (`<iframe>`)
+- Audio (`<audio>`)
+- Video (`<video>`)
+- Iframe (`<iframe>`)
 
 🎯 Practice
 
@@ -120,40 +106,29 @@ Add audio player
 ### 🟤 Phase 7: Advanced HTML
 🔹 Topics
 
-HTML5 APIs (intro)
-
-Meta tags
-
-Favicon
-
-Responsive design basics
-
-Accessibility (ARIA basics)
+- HTML5 APIs (intro)
+- Meta tags
+- Favicon
+- Responsive design basics
+- Accessibility (ARIA basics)
 
 ### ⚫ Phase 8: Integration
 🔹 Topics
 
-HTML + CSS
+- HTML + CSS
+- HTML + JavaScript
+- DOM basics
 
-HTML + JavaScript
+### 🛠️ Projects (Must Do 🔥)
+#### Beginner
 
-DOM basics
+- Personal profile page
+- Simple blog page
 
-🛠️ Projects (Must Do 🔥)
-Beginner
+#### Intermediate
 
-Personal profile page
-
-Simple blog page
-
-Intermediate
-
-Login & signup forms
-
-Portfolio website
-
-Advanced
-
-Landing page
-
-Multi-page website
+- Login & signup forms
+- Portfolio website
+- Advanced
+- Landing page
+- Multi-page website
