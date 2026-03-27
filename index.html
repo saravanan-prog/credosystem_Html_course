@@ -2,48 +2,42 @@
 <html>
 <head>
    
-    <title>Sample web page</title>
+    <title>HTML ForMS</title>
 
 </head>
 <body>
-    
-    <div class="container">
-        <table border="2">
-            <thead>
-                <tr>
-                    <th>Serial Number</th>
-                    <th colspan="2">Student  Name</th>
-                     <!-- <th>Student Last Name</th> -->
-                    <th>Studnet address</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td rowspan="3">Abinaya</td>
-                    <td>velmurugan</td>
-                    <td>Villupuram</td>
-                   
-                </tr>
-
-                <tr>
-                    <td>2</td>
-                    <!-- <td>Abinaya</td> -->
-                    <td>Rajasekar</td>
-                    <td>kallakurichi</td>
-                </tr>
-
-                  <tr>
-                    <td>3</td>
-                    <!-- <td>Abinaya</td> -->
-                    <td>kandasamy</td>
-                    <td>Ulundurpet</td>
-                </tr>
-            </tbody>
-            
-        </table>
+    <div class="title">
+        <h1>Student Registration Form </h1>
     </div>
 
+    <div class="student-form">
+        
+        <form>
+            <div class="row">
+                <label for="student-name">Student Name </label>
+                <input type="text" id="student-name"  class="form-control" name="student-name" value="Abinaya">
+            </div>
+
+            <div class="row">
+                <label for="credential">Password</label>
+                <input type="password" id="credential" class="form-control" name="student-password"
+                value="Test@123"
+                >
+            </div>
+            <div class="row">
+                <input type="submit" value="register"/>
+                <input type="button" value = "cancel" />
+            </div>
+
+        </form>
+
+
+
+
+
+
+    </div>
+   
 </body>
 </html>
 
