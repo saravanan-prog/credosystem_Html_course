@@ -7,18 +7,19 @@
 </head>
 <body>
         <div>
-            <label for="">Text</label>
+            <label for="text-input">Candidate Name</label>
              <input 
                 type="text"
                 name="sample-text"
-                id=""
+                id="text-input"
                 value =""
-                placeholder="enter the name"
+                placeholder="Ex: SARAVAANN"
+                max="99"
             />
         </div>
 
         <div>
-            <label for="">password</label>
+            <label for="credital">password</label>
             <input 
                 type="password"
                 name="sample-text"
@@ -44,7 +45,7 @@
                 name="sample-text"
                 id=""
                 value =""
-                max="2026-03-12"
+                max="2026-03-27"
                
             />
         </div>
@@ -57,7 +58,7 @@
                 name="sample-text"
                 id=""
                 value =""
-                max="2026-03-12 11.25"
+                
             />
         </div>
 
@@ -111,7 +112,7 @@
                 id=""
                 value="tamil"
                 checked
-            /> Tamil
+            /> male
         </div>
 
          <div>
@@ -125,22 +126,35 @@
 
 
         <div>
-            <input type="submit" />
-            <input type="button" value="cancel">
-            <button>cancel</button>
+             <!--normal buttons-->
+            <input type="submit" value="Resiter" />
+            <input type="button" value="cancel" />
+            <!--semantic buttons-->
+            <button type="submit">Register</button>
+            <button>Cancel</button>
 
         </div>
 
         <div class="rich-text-box">
-            <textarea name="address" id="address" rows="20" cols="40"></textarea>
+            <label for="address"> Address</label>
+            <textarea 
+                    name="address" 
+                    id="address" 
+                    rows ="10"
+                    cols = "50"
+            ></textarea>
         </div>
 
         <div class="select-box">
+
+            <label for="fruits">Fruits</label>
             <select name="fruits" id="fruits">
                 <option value="">choose fruits</option>
                 <option value="apple">Apple</option>
                 <option value="orange">Orange</option>
             </select>
+
+
         </div>
        
 
