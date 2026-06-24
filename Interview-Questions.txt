@@ -1,0 +1,7 @@
+1. What is html ?
+2. What is Elements and types ?
+3. Block level elements vs Inline element ?
+4. What is void element ?
+5. What is semmantic Elements list out 5 elements?
+6. <article> vs <aside> ?
+7. <div> vs <span> ?
