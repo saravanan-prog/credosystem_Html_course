@@ -1,0 +1,7 @@
+1. what is attributes ?
+    
+    
+2. listout the attributes types?
+
+
+3. Difference between id vs class ?
