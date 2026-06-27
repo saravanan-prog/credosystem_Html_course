@@ -5,3 +5,4 @@
 5. What is semmantic Elements list out 5 elements?
 6. <article> vs <aside> ?
 7. <div> vs <span> ?
+8. paired tag vs unparied tags?
