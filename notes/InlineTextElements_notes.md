@@ -9,8 +9,8 @@
             <em>      – Emphasized text
             <u>       – Underline
             <mark>    – Highlight
-            <sup>     – Superscript
-            <sub>     – Subscript
+            <sup>     – Superscript         
+            <sub>     – Subscript           
 
 
     
