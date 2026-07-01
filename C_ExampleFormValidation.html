@@ -21,12 +21,17 @@
             </label>
 
             <input 
-                type="text" id="candidate-name" name="candidate-name" 
+                type="text" 
+                id="candidate-name" 
+                name="candidate-name" 
                 value=""
                 placeholder="ex:saravanan"
                 required
             />
         </div> &nbsp;&nbsp;&nbsp;
+
+
+
 
 
         <div class="row">
@@ -41,6 +46,11 @@
                 placeholder="example@gmail.com"
                 required />
         </div> &nbsp;&nbsp;&nbsp;
+
+
+
+
+
 
         <div class="row">
             <label>
@@ -58,6 +68,13 @@
             >
         </div> &nbsp;&nbsp;&nbsp;
 
+
+
+
+
+
+        
+
         <div class="row">
             <label>
                 <span>Date of Birth</span>
@@ -67,7 +84,8 @@
                 type="date" 
                 id="candidate-dob" 
                 name="candidate-dob"
-                 required 
+                max="2026-07-01"
+                required 
                  />
         </div> &nbsp;&nbsp;&nbsp;
 
@@ -84,6 +102,8 @@
                 type="password" 
                 id="candidate-password" 
                 name="candidate-password" 
+                minlength="6"
+                maxlength="12"
                 required 
             />
         </div> &nbsp;&nbsp;&nbsp;
