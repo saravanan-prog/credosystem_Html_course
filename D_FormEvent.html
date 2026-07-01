@@ -6,8 +6,17 @@
 </head>
 
 <body >
-    <form  onsubmit="event.preventDefault(); console.log('your form is submit via in Js')">
-        <button type="submit">Register</button>
+    <form  onsubmit="event.preventDefault(); console.log('event===>',event.target.canidatename.value)">
+
+        <div>
+            <label >Canidate Name</label>
+            <input type="text" name="canidatename">
+        </div>
+
+        <div>
+             <button type="submit">Register</button>
+        </div>
+       
     </form>
   
 </body>
