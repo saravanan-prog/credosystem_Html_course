@@ -7,7 +7,7 @@
 </head>
 <body>
         <div>
-            <label for="text-input">Candidate Name</label>
+            <label for="canidatename">Candidate Name</label>
              <input 
                 type ="text"
                 name = "candidate-name"
@@ -18,59 +18,88 @@
              />
         </div>
 
+
+
+
+
+
+
+
         <div>
             <label for="credital">password</label>
             <input 
                 type="password"
-                name="sample-text"
-                id=""
+                name="password"
+                id="credital"
                 value =""
             />
         </div>
 
+
+
+
+
+
+
         <div>
-            <label for="">Email</label>
+            <label for="candidate-email">Email</label>
             <input 
                 type="email"
-                name="sample-text"
-                id=""
+                name="candidate-email"
+                id="candidate-email"
                 value =""
             />
         </div>
 
+
+
+
+
+
         <div>
-            <label for="">dob</label>
+            <label for="date-of-brith">dob</label>
             <input 
                 type="date"
                 name="sample-text"
-                id=""
-                value =""
-                max="2026-03-27"
+                id="date-of-brith"
+                max="2026-07-04"
                
             />
         </div>
 
 
+
+
+
          <div>
-            <label for="">date with time</label>
+            <label for="addate-time">
+                Admission Date
+            </label>
             <input 
                 type="datetime-local"
                 name="sample-text"
-                id=""
-                value =""
-                
+                id="addate-time"
+
             />
         </div>
 
 
         <div>
-            <label for="">Number</label>
+            <label for="candidate-age">Number</label>
             <input 
                 type="number"
-                name="sample-text"
-                id=""
+                name="candidate-age"
+                id="candidate-age"
             />
         </div>
+
+
+
+
+
+
+
+
         
 
          <div>
@@ -79,19 +108,30 @@
                 type="tel"
                 name="sample-text"
                 id=""
-                pattern="[0-9]{10}"
+                pattern="[0-9]{6-10}"
+                
             />
         </div>
 
+
+
+
          <div>
-            <label for="">check box</label>
+            <label for="acp">Accept Terms conditions</label>
             <input 
                 type="checkbox"
                 name="sample-text"
-                id=""
-                value="tamil"
-            /> Tamil
+                id="acp"
+                value="true"
+            /> All legeal documents is submitted as per nors
         </div>
+
+
+
+
+
+
+
 
         <div>
             <label for="">check box auto checked</label>
@@ -103,31 +143,81 @@
                 checked
             /> Tamil
         </div>
+
+
+
+
        
         <div>
-            <label for="">check box auto checked</label>
+            <label for="gender">Gender</label>
             <input 
                 type="radio"
-                name="sample-text"
-                id=""
-                value="tamil"
+                name="gender"
+                id="gender"
+                value="male"
                 checked
             /> male
         </div>
 
+
+
+
          <div>
-            <label for="">file</label>
+            <label for="candidate-proof">file</label>
             <input 
                 type="file"
-                name="sample-text"
+                name="candidate-proof"
               
             /> 
         </div>
 
 
+
+         <div class="rich-text-box">
+            <label for="address"> Address</label>
+            <textarea 
+                    name="address" 
+                    id="address" 
+                    rows ="4"
+                    cols = "30"
+            ></textarea>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="select-box">
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">choose country</option>
+                <option value="india">India</option>
+                <option value="china">China</option>
+            </select>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div>
              <!--normal buttons-->
-            <input type="submit" value="Resiter" />
+            <input type="submit" value="Register"/>
             <input type="button" value="cancel" />
             <!--semantic buttons-->
             <button type="submit">Register</button>
@@ -135,26 +225,11 @@
 
         </div>
 
-        <div class="rich-text-box">
-            <label for="address"> Address</label>
-            <textarea 
-                    name="address" 
-                    id="address" 
-                    rows ="10"
-                    cols = "50"
-            ></textarea>
-        </div>
 
-        <div class="select-box">
 
-            <label for="fruits">Fruits</label>
-            <select name="fruits" id="fruits">
-                <option value="">choose fruits</option>
-                <option value="apple">Apple</option>
-                <option value="orange">Orange</option>
-            </select>
 
-        </div>
+
+       
        
 
         
