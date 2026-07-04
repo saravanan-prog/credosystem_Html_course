@@ -1,127 +1,154 @@
 <html>
+  <head>
+    <title>Example Form</title>
+  </head>
 
-<head>
-    <title> Example Form </title>
-</head>
-
-<body>
-
+  <body>
     <fieldset>
-        <legend>Registration Form</legend>
-        <form>
+      <legend>Registration Form</legend>
+      <form>
+        <div class="row">
+          <label for="candidate-name">
+            <span>Candidate Name</span>
+            <span style="color: red">*</span>
+          </label>
 
-            <div class="row">
+          <input
+            type="text"
+            id="candidate-name"
+            name="candidate-name"
+            value=""
+            placeholder="ex:saravanan"
+            required
+          />
+        </div>
+        &nbsp;&nbsp;&nbsp;
 
-                <label for="candidate-name">
-                    <span>Candidate Name</span>
-                    <span style="color:red">*</span>
-                </label>
+        <div class="row">
+          <label for="candidate-email">
+            <span>Email</span>
+            <span style="color: red">*</span>
+          </label>
+          <input
+            type="email"
+            id="candidate-email"
+            name="candidate-email"
+            placeholder="example@gmail.com"
+            required
+          />
+        </div>
+        &nbsp;&nbsp;&nbsp;
 
-                <input type="text" id="candidate-name" name="candidate-name" value="" placeholder="ex:saravanan"
-                    required />
-            </div> &nbsp;&nbsp;&nbsp;
+        <div class="row">
+          <label>
+            <span>Mobile Number</span>
+            <span style="color: red">*</span>
+          </label>
+          <input
+            type="tel"
+            id="candidate-number"
+            name="candidate-number"
+            pattern="[0-9]{6,10}"
+            required
+          />
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="row">
+          <label>
+            <span>Date of Birth</span>
+            <span style="color: red">*</span>
+          </label>
+          <input
+            type="date"
+            id="candidate-dob"
+            name="candidate-dob"
+            min="2026-03-01"
+            max="2026-07-01"
+            required
+          />
+        </div>
+        &nbsp;&nbsp;&nbsp;
 
+        <div class="row">
+          <label>
+            <span>Password</span>
+            <span style="color: red">*</span>
+          </label>
+          <input
+            type="password"
+            id="candidate-password"
+            name="candidate-password"
+            minlength="6"
+            maxlength="12"
+            required
+          />
+        </div>
+        &nbsp;&nbsp;&nbsp;
 
+        <div class="row">
+          <label>
+            <span>Gender</span>
+          </label>
+          <span>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+          </span>
+          <span>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">female</label>
+          </span>
+        </div>
+        &nbsp;&nbsp;&nbsp;
 
+        <div class="row">
+          <label>
+            <span>Languages</span>
+          </label>
 
+          <span>
+            <input type="checkbox" id="tamil" name="lang[]" value="tamil" />
+            <label for="tamil">Tamil</label>
+          </span>
+          <span>
+            <input type="checkbox" id="english" name="lang[]" value="english" />
+            <label for="english">English</label>
+          </span>
+          <span>
+            <input
+              type="checkbox"
+              id="malayalam"
+              name="lang[]"
+              value="malayalam"
+            />
+            <label for="malayalam">Malayalam</label>
+          </span>
+        </div>
+        &nbsp;&nbsp;&nbsp;
 
-            <div class="row">
-                <label for="candidate-email">
-                    <span>Email</span>
-                    <span style="color:red">*</span>
-                </label>
-                <input type="email" id="candidate-email" name="candidate-email" placeholder="example@gmail.com"
-                    required />
-            </div> &nbsp;&nbsp;&nbsp;
+        <div class="row">
+          <label> Comments </label>
+          <textarea rows="10" cols="10" placeholder="ex:comments..."></textarea>
+        </div>
+        &nbsp;&nbsp;&nbsp;
 
-            <div class="row">
-                <label>
-                    <span>Mobile Number</span>
-                    <span style="color:red">*</span>
-                </label>
-                <input type="tel" id="candidate-number" name="candidate-number" pattern="[0-9]{6,10}" required>
-            </div> &nbsp;&nbsp;&nbsp;
-            <div class="row">
-                <label>
-                    <span>Date of Birth</span>
-                    <span style="color:red">*</span>
-                </label>
-                <input type="date" id="candidate-dob" name="candidate-dob" min="2026-03-01" max="2026-07-01" required />
-            </div> &nbsp;&nbsp;&nbsp;
+        <div class="row">
+          <label> Country </label>
+          <select name="country" required>
+            <option value="">choose your country</option>
+            <option value="IN">India</option>
+            <option value="CN">China</option>
+            <option value="PK">Pakisthan</option>
+          </select>
+        </div>
 
-            <div class="row">
-                <label>
-                    <span>Password</span>
-                    <span style="color:red">*</span>
-                </label>
-                <input type="password" id="candidate-password" name="candidate-password" minlength="6" maxlength="12"
-                    required />
-            </div> &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
 
-            <div class="row">
-                <label>
-                    <span>Gender</span>
-                </label>
-                <span>
-                    <input type="radio" id="male" name="gender" value="male" />
-                    <label for="male">Male</label>
-                </span>
-                <span>
-                    <input type="radio" id="female" name="gender" value="female" />
-                    <label for="female">female</label>
-                </span>
-
-            </div> &nbsp;&nbsp;&nbsp;
-
-            <div class="row">
-                <label>
-                    <span>Languages</span>
-                </label>
-
-                <span>
-                    <input type="checkbox" id="tamil" name="lang[]" value="tamil" />
-                    <label for="tamil">Tamil</label>
-                </span>
-                <span>
-                    <input type="checkbox" id="english" name="lang[]" value="english" />
-                    <label for="english">English</label>
-                </span>
-                <span>
-                    <input type="checkbox" id="malayalam" name="lang[]" value="malayalam" />
-                    <label for="malayalam">Malayalam</label>
-                </span>
-
-            </div> &nbsp;&nbsp;&nbsp;
-
-
-
-            <div class="row">
-                <label> Comments </label>
-                <textarea rows="10" cols="10" placeholder="ex:comments..."></textarea>
-            </div> &nbsp;&nbsp;&nbsp;
-
-
-            <div class="row">
-                <label> Country </label>
-                <select name="country" required>
-                    <option value="">choose your country</option>
-                    <option value="IN">India</option>
-                    <option value="CN">China</option>
-                    <option value="PK">Pakisthan</option>
-                </select>
-            </div>
-
-            &nbsp;&nbsp;&nbsp;
-
-            <div class="row">
-                <input type="submit" value="Register" />
-                <input type="button" value="cancel" />
-                <button>Reset</button>
-            </div>
-
-        </form>
+        <div class="row">
+          <input type="submit" value="Register" />
+          <input type="button" value="cancel" />
+          <button>Reset</button>
+        </div>
+      </form>
     </fieldset>
-
-</body>
-
+  </body>
 </html>
