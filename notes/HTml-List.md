@@ -2,22 +2,22 @@
 
 
   ##  TYPES:
-  - undorder list (bullet,circle etc.,)
-  - order list (alpha,newmeric,roam letter)
-  - description list (essay)
+  - undorder list (`bullet`,`circle` etc.,)
+  - order list (`alpha`,`newmeric`,`roam letter`)
+  - description list (`essay`)
 
 
 - 👉 HTML provides three main tags to create lists:
 
-            <ul>  – Unordered List
-            <ol>  – Ordered List
-            <li>  – List Item
+      `<ul>`  – Unordered List
+      `<ol>`  – Ordered List
+      `<li>`  – List Item
 
 
 
 ####  1.  UNORDER LIST
     
--  👉 Used to create a bulleted list.
+-  👉 Used to create a `bulleted list`.
 - Attributes:
 
               <ul type="disc">   <!-- Default -->
@@ -34,7 +34,7 @@
 
 ####  2.  ORDER LIST
     
-  -  👉 Used to create a numbered list.
+  -  👉 Used to create a `numbered list`.
   -  👉 Attributes
     
           <ol type="1">   <!-- Numbers (default) -->
