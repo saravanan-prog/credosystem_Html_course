@@ -23,12 +23,12 @@
         🔹muted       – Starts muted
     
 
-    ```
-    <audio controls>
-        <source src="audio.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    ```
+```
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+```
 
 #### 🎬 Video
 
