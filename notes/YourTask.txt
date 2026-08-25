@@ -1,7 +1,0 @@
-1. Create a webpage is "blogs" you fill the your own "essay"
-   - Introudction [born details, elimantery school]
-   - Education Details.
-   - Achievements.
-   - Special skills
-   - conclusion
-   

@@ -1,8 +1,6 @@
-
-    📌 Text Elements  
-    -----------------
-        Used to structure text content.
-
+# Text Elements  
+Used to structure text content.
+```
             🔹 <h1> to <h6>	    Headings
             🔹 <p>	            Paragraph
             🔹 <br>	            Line break
@@ -10,3 +8,4 @@
             🔹 <div>            Division
             🔹 <blockquote>     block + quote
             🔹 <pre>            Preformatted text.
+```
