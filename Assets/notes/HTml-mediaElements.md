@@ -82,8 +82,8 @@
     ```
 
 
-🌐 Embedding External Media
-============================
+### 🌐 Embedding External Media
+
 -    👉 `<iframe>` - Used to embed external content (YouTube videos, maps, etc.).
 
 ``` 
