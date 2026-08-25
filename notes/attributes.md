@@ -1,16 +1,16 @@
 # Attributes
 
- - 👉 In HTML, attributes provide additional information about elements. 
--  👉 They are always written in the opening tag and usually come in name="value" format.
+ - 👉 In HTML, attributes provide `additional information` about elements. 
+-  👉 They are always written in the `opening tag` and usually come in `name="value"` format.
 
 Here are the main types of HTML attributes:
 
 
 ## Global Attributes 
     
--        👉 These can be used on almost all HTML elements.
+-  These can be used on almost all HTML elements.
 
-
+```
                 id              –   Unique identifier
                 class           –   CSS class name
                 style           –   Inline CSS
@@ -18,7 +18,7 @@ Here are the main types of HTML attributes:
                 tabindex        –   Tab order
                 hidden          -  hide the text
                 contenteditable –   Makes content editable
-
+```
 ## Element-Specific Attributes
     
 -    These are used only with specific HTML elements.
