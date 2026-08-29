@@ -1,45 +1,34 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Basic Form</title>
-  </head>
-  <body>
-    <form
-      method="POST"
-      onsubmit="
-        event.preventDefault();
-        console.log('event=====>', event);
-      "
-    >
+
+<head>
+  <title>Basic Form</title>
+</head>
+
+<body>
+  <div>
+    <form method="post" enctype="multipart/form-data">
       <div>
-        <label for="candidate-name">Candidate Name</label>
-        <input
-          type="text"
-          id="candidate-name"
-          name="candidatename"
-          value="Ramesh"
-        />
+        <label for="canidate-name">Enter your Name</label>
+        <input type="text" id="canidate-name" name="candidatename" />
       </div>
       <div>
-        <label for="candidate-email">Candidate Email</label>
-        <input
-          type="email"
-          id="candidate-email"
-          name="candidateemail"
-          value="ramesh.r2@gmail.com"
-        />
+        <label for="canidate-password">Enter your password</label>
+        <input type="password" id="canidate-password" name="canidate-password">
       </div>
       <div>
-        <label for="candidate-password">Password</label>
-        <input
-          type="password"
-          id="candidate-password"
-          name="candidatepassword"
-        />
+        <label for="canidate-dob">Enter your Date of Birth</label>
+        <input type="date" id="canidate-dob" name="canidate-dob" max="2026-08-29">
       </div>
       <div>
-        <button type="submit">Registration</button>
+        <label for="id-proof">Enter your Date of Birth</label>
+        <input type="file" id="id-proof" name="proof">
+      </div>
+      <div>
+        <button type="submit">Register</button>
+        <button>Cancel</button>
       </div>
     </form>
-  </body>
+  </div>
+</body>
 </html>
