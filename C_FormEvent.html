@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change Event</title>
+</head>
+<body>
+
+    <form onsubmit="submitEvent(event)" >
+        <div>
+            <label for="candiatename">candidate Name</label>
+            <input type="text" name="candiatename" id="candiatename">
+        </div>
+        <div>
+            <label for="canidateEmail">candidate Email</label>
+            <input type="text" name="canidateEmail" id="canidateEmail">
+        </div>
+        <div>
+            <input type="submit" />
+           
+        </div>
+
+    </form>
+    
+
+    <script>
+        function submitEvent(e){
+            e.preventDefault()
+            console.log("Form Even triggred....",e)
+        }
+        
+    </script>
+
+</body>
+</html>
