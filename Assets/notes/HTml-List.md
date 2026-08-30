@@ -1,41 +1,33 @@
-# HTML List
+### HTML List
+ A Html list is an arranged elements ordered or unordered.
 
-
-  ##  TYPES:
-  - undorder list (`bullet`,`circle` etc.,)
-  - order list (`alpha`,`newmeric`,`roam letter`)
-  - description list (`essay`)
-
-
-- 👉 HTML provides three main tags to create lists:
-
-      `<ul>`  – Unordered List
-      `<ol>`  – Ordered List
-      `<li>`  – List Item
-
-
+##  TYPES:
+  - undorder list 
+  - order list
+  - description list 
 
 ####  1.  UNORDER LIST
     
--  👉 Used to create a `bulleted list`.
-- Attributes:
+-  👉 Used to create a `bulleted list` first then change the type later.
 
-              <ul type="disc">   <!-- Default -->
-              <ul type="circle">
-              <ul type="square">
-
--    Example:
-
-            <ul>
-                <li>Apple </li>
-                <li>Orange </li>
-                <li>Grapes </li>
-            </ul>
-
+#### Attributes:
+```
+      <ul type="disc">  <!-- Default -->
+      <ul type="circle">
+      <ul type="square">
+```
+####    Example:
+```
+      <ul>
+          <li>Apple </li>
+          <li>Orange </li>
+          <li>Grapes </li>
+      </ul>
+```
 ####  2.  ORDER LIST
     
-  -  👉 Used to create a `numbered list`.
-  -  👉 Attributes
+  -  👉 Used to create a `numbered list` first then change the type later.
+  #### 👉 Attributes
     
           <ol type="1">   <!-- Numbers (default) -->
           <ol type="A">   <!-- Capital Letters -->
