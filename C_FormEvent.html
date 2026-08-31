@@ -24,9 +24,14 @@
     
 
     <script>
-        function submitEvent(e){
-            e.preventDefault()
-            console.log("Form Even triggred....",e)
+        function submitEvent(){
+
+            event.preventDefault()
+            const canidateName = event.target[0].value;
+            const candidateEmail = event.target[1].value;
+            
+            console.log("canidateName====>",canidateName)
+             console.log("candidateEmail====>",candidateEmail)
         }
         
     </script>

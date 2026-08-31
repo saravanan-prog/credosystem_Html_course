@@ -5,20 +5,28 @@
     <title>Change Event</title>
 </head>
 <body>
+    <div>
+        <label for="">Enter Canidate Name </label>
+        <input 
+            type="text" 
+            name = "candidatename"
+            class = "txt-clr-red txt-cntr"
+            id = "candidatename xyz"
+            value = ""
+            onchange = "console.log('input event ====>',event.target.value)"
+        >
 
-    <input 
-        type="text" 
-        name = "candidatename"
-        class = "txt-clr-red txt-cntr"
-        id = "candidatename"
-        onchange = "console.log('input event ====>',event.target.value)"
-   >
+    </div>
 
-    <select onchange="console.log('select box ====>',event.target.value)">
-        <option value="apple">Apple</option>
-        <option value="orange">Orange</option>
-        <option value="grapes">Grapes</option>
-    </select>
+    <div>
+        <select onchange="console.log('Your Selected Item is ====>',event.target.value)">
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            <option value="grapes">Grapes</option>
+        </select>
+    </div>
+    
+    
 
 
 </body>
