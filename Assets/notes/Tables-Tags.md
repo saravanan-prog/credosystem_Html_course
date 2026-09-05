@@ -1,27 +1,25 @@
 # Table Tags in HTML
 
-
-    <table> – Creates a table
-    <tr>    – Table row
-    <th>    – Table heading (header cell)
-    <td>    – Table data (cell).
+ - A tabular is represented to rows or column.
+ - In html we create a table using `<table>`....`</table>`
+ - In each row defind to `<tr>` tag.
+ - In row inside we project the content heading `<th>` otherwise `<td>`
 
 Table Attributes
 
-- border : Used for visibility in beginner level
+- `border` : Used for visibility in beginner level
+`<table border="1">`
 
-            <table border="1">
-
-- colspan :  Used to merge columns.
+- `colspan` :  Used to `merge columns`.
         
-            <td colspan="2">Total</td>
+ `<td colspan="2">Total</td>`
 
-- rowspan :  Used to merge rows.
+- `rowspan` :  Used to `merge rows`.
 
-            <td rowspan="2">Arun</td>
+`<td rowspan="2">Arun</td>`
 
 
-Example code
+### Example code
 
 <!DOCTYPE html>
 <html>
