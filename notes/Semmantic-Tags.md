@@ -1,7 +1,7 @@
 # Semantic HTML
-   -  Semantic HTML uses meaningful tags that clearly describe the purpose of the content.
-   -  Improves readability of code
-   -  Better SEO
+   -  Semantic HTML uses `meaningful tags` that clearly describe the purpose of the content.
+   -  Improves `readability of code`
+   -  Better `SEO`
    -  Helps screen readers (accessibility)
    -  Easier website structure understanding
 
