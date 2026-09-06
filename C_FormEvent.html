@@ -4,37 +4,43 @@
 <head>
     <title>Change Event</title>
 </head>
+
 <body>
 
-    <form onsubmit="submitEvent(event)" >
+    <form onsubmit="submitEvent(event)" method="post">
         <div>
-            <label for="candiatename">candidate Name</label>
+            <label for="candiatename">Candidate Name</label>
             <input type="text" name="candiatename" id="candiatename">
         </div>
         <div>
-            <label for="canidateEmail">candidate Email</label>
+            <label for="canidateEmail">Candidate email</label>
             <input type="text" name="canidateEmail" id="canidateEmail">
         </div>
         <div>
             <input type="submit" />
-           
+
         </div>
 
     </form>
-    
+
 
     <script>
-        function submitEvent(){
+      
+
+
+        function submitEvent(event) {
 
             event.preventDefault()
+          
             const canidateName = event.target[0].value;
             const candidateEmail = event.target[1].value;
-            
+
             console.log("canidateName====>",canidateName)
-             console.log("candidateEmail====>",candidateEmail)
+            console.log("candidateEmail====>",candidateEmail)
         }
-        
+
     </script>
 
 </body>
+
 </html>
