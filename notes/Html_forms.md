@@ -1,20 +1,21 @@
 # HTML Forms
 
--   👉 An HTML form is used to collect user input and send it to a server for processing.
+ An HTML form is used to `collect user input` and `send it to a server for processing`.
 
-        1️⃣ Basic Structure of a Form
-        -------------------------------
-            <form action="/submit.java" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" />
-                <button type="submit">Submit</button>
-            </form>
--    👉 Important Attributes:
-            
-           🔹 action → URL where form data is sent
-           🔹 method → GET (data in URL) or POST (data in request body)
+### 1️⃣ Basic Structure of a Form
+ ```       
+<form method="POST">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+```
     
--    Common Input Types
+## Common Input Types
 
     
     -    📝 Text Input   - <input type="text" name="username" />

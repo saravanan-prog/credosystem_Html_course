@@ -48,7 +48,7 @@
             type="tel"
             id="candidate-number"
             name="candidate-number"
-            pattern="[0-9]{6,10}"
+            pattern="[0-9]{10}"
             required
           />
         </div>
@@ -63,7 +63,7 @@
             id="candidate-dob"
             name="candidate-dob"
             min="2026-03-01"
-            max="2026-07-01"
+            max="2026-09-05"
             required
           />
         </div>
@@ -106,12 +106,21 @@
             <span>Gender</span>
           </label>
           <span>
-            <input type="radio" id="male" name="gender" value="male" checked/>
-            <label for="gender" >Male</label>
+            <input 
+              type="radio" 
+              id="male" 
+              name="gender" 
+              value="male" 
+              />
+            <label for="male" >Male</label>
           </span>
           <span>
-            <input type="radio" id="female" name="gender" value="female" />
-            <label for="gender">female</label>
+            <input type="radio" 
+                id="female" 
+                name="gender"
+                value="female"
+             />
+            <label for="female">female</label>
           </span>
         </div>
         &nbsp;&nbsp;&nbsp;
@@ -122,11 +131,11 @@
           </label>
 
           <span>
-            <input type="checkbox" id="tamil" name="lang" value="tamil" />
+            <input type="checkbox" id="tamil" name="lang[]" value="tamil" />
             <label for="tamil">Tamil</label>
           </span>
           <span>
-            <input type="checkbox" id="english" name="lang" value="english" />
+            <input type="checkbox" id="english" name="lang[]" value="english" />
             <label for="english">English</label>
           </span>
           <span>

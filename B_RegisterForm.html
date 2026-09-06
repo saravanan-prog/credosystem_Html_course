@@ -9,34 +9,53 @@
         
         <div>
           <label for="canidate-name">Enter your Name</label>
-          <input type="text" id="canidate-name" name="candidatename"/>
+          <input 
+            type="text" 
+            id="canidate-name" 
+            name="candidatename"
+            value="saravanan"
+            required
+          />
         </div>
-
+        &nbsp;
         <div>
-            <label for="">Enter Your Address</label>
-            <textarea name="address" id="address" rows="10" cols="18"></textarea>
+            <label for="address">Enter Your Address</label>
+            <textarea 
+              name="address" 
+              id="address" 
+              rows="6" 
+              cols="18"
+              required
+            >2nd cross st Dhandeshwaram velachery
+            </textarea>
         </div>
-
+        &nbsp;
         <div>
             <label for="country">country</label>
 
-            <select id="country" name="country">
-                <option>Please select your conuntry</option>
+            <select id="country" name="country" required>
+                <option value="">Choose country</option>
                 <option value="india" >India</option>
                 <option value="pakisthan">Pakisthan</option>
-                <option value="china" selected>China</option>
-
-            </select>
+                <option value="china">China</option>
+                <option value="usa" >USA</option>
+            </select> 
         </div>
-        
+        &nbsp;
         <div>
-           <input type="checkbox" name="terms-of-conditons" checked>
+
+           <input 
+              type="checkbox" 
+              name="terms-of-conditons" 
+              checked
+            />&nbsp;&nbsp;
+
            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia facilis, exercitationem porro doloremque fuga dignissimos tenetur neque sapiente velit aut. Natus dolorum sed ipsam eveniet non ad, alias aliquid voluptas.</span>
         </div>
-
-
+        &nbsp;
         <div>
-           <input type="submit">
+          <input type="submit" value="Register">
+          <input type="button" value="Cancel">
         </div>
       </form>
     </div>
